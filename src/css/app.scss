@@ -1,0 +1,150 @@
+// app global css in SCSS form
+* {
+  font-family: BYekan;
+}
+body {
+  background-color: #dedac9;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.br-separate {
+  border-top: solid #8e8d8a;
+}
+.dir-rtl {
+  direction: rtl;
+}
+.bg-all {
+  background-color: #dedac9 !important;
+}
+.bg-header {
+  background-color: #e7e0c6 !important;
+}
+.text-main-color {
+  color: #e98074;
+}
+.text-content-color {
+  color: #e85a4f;
+}
+.text-main-color {
+  color: #e98074;
+}
+.bg-content-box {
+  background: #d8c3a5 !important;
+}
+.height-70 {
+  height: 70%;
+}
+.width-70 {
+  width: 70vw;
+}
+.height-100 {
+  height: 100vh;
+}
+.width-100 {
+  width: 100vw;
+}
+
+@font-face {
+  font-family: 'BYekan';
+  src: url('assets/yekan/yekan-regular.eot'); /* Supports IE9+ */
+  src: url('assets/yekan/yekan-regular.woff') format('embedded-opentype'),
+    /* Supports IE6-IE8 */ url('assets/yekan/yekan-regular.woff')
+      format('woff2'),
+    /* Modern Browsers */ url('assets/yekan/yekan.woff') format('woff'),
+    /* Modern Browsers */ url('assets/yekan/yekan.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('assets/yekan/yekan.svg') format('svg'); /* Legacy iOS */
+
+  /* Optional: Set font-weight and font-style if needed */
+  // font-weight: normal;
+  // font-style: normal;
+}
+.show-description {
+  height: 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}
+.title-desktop {
+  visibility: visible;
+}
+.title-mobile {
+  visibility: hidden;
+}
+@media only screen and (min-width: 600px) {
+  #menu {
+    max-width: 300px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title-mobile {
+    visibility: visible;
+  }
+  .title-desktop {
+    visibility: hidden;
+  }
+  .col-6 {
+    width: 100% !important;
+  }
+  #first-page .col {
+    flex: 1 0 100% !important;
+  }
+}
+
+//=================
+//=   Hover Nav   =
+//=================
+
+.navi {
+  position: fixed;
+  z-index: 1;
+  width: 55px;
+  height: 260px;
+  margin: 100px 0 0 0;
+  &:hover {
+    animation: nav-open-right 0s forwards;
+    .span {
+      direction: rtl;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-delay: 0.4s;
+    }
+  }
+}
+.span {
+  opacity: 0;
+  padding: 4px !important;
+  transition-property: opacity;
+  transition-duration: 0.4s, 0s;
+  transition-delay: 0s, 0.4s;
+  position: inherit;
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 1%;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ecce62;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(147, 147, 0);
+}
+@keyframes nav-open-right {
+  0% {
+    width: 55px;
+  }
+  100% {
+    width: 230px;
+  }
+}

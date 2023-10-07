@@ -1,0 +1,26 @@
+<svg id="SvgjsSvg1017" width="200" height="256" xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
+  <defs id="SvgjsDefs1018"></defs>
+  <g id="SvgjsG1019">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="200" height="256">
+      <path fill="#0191cd"
+        d="M44.7 7H22.6c-.9 0-1.8-.4-2.4-1l-2.8-3c-.6-.7-1.5-1-2.4-1H3.3C1.5 2 0 3.5 0 5.3v33.4C0 40.5 1.5 42 3.3 42h41.4c1.8 0 3.3-1.5 3.3-3.3V10.3C48 8.5 46.5 7 44.7 7z"
+        class="colorE7B95E svgShape"></path>
+      <path fill="#52cc99"
+        d="M42.9 10.3H5.1c-1.4 0-2.5 1.1-2.5 2.5v27.1c0 1.4 1.1 2.5 2.5 2.5H43c1.4 0 2.5-1.1 2.5-2.5V12.8c-.1-1.4-1.2-2.5-2.6-2.5z"
+        class="colorFFF svgShape"></path>
+      <path fill="#ffbf66"
+        d="M44.7 14.3H3.3c-1.8 0-3.3 1.5-3.3 3.3v25.1C0 44.5 1.5 46 3.3 46h41.4c1.8 0 3.3-1.5 3.3-3.3V17.6c0-1.8-1.5-3.3-3.3-3.3z"
+        class="colorFFCC67 svgShape"></path>
+      <path fill="#52cc99"
+        d="M10.2 33.9c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5h27.6c1.4 0 2.5 1.1 2.5 2.5s-1.1 2.5-2.5 2.5H10.2z"
+        class="colorFFF svgShape"></path>
+      <path fill="#edb261"
+        d="M10.2 33.9c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5h16.6c1.4 0 2.5 1.1 2.5 2.5s-1.1 2.5-2.5 2.5H10.2z"
+        class="colorED7161 svgShape"></path>
+      <path fill="#767fad"
+        d="M10.3 24.1h.9v3.1h-.9zM12.9 25.5h.9v1.6h-.9zM15.6 24.1h.9v3.1h-.9zM18.2 25.5h.9v1.6h-.9zM20.9 24.1h.9v3.1h-.9zM23.6 25.5h.9v1.6h-.9zM26.2 24.1h.9v3.1h-.9zM28.9 25.5h.9v1.6h-.9zM31.5 24.1h.9v3.1h-.9zM34.2 25.5h.9v1.6h-.9zM36.9 24.1h.9v3.1h-.9z"
+        class="color676767 svgShape"></path>
+    </svg>
+  </g>
+</svg>
